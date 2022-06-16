@@ -65,10 +65,10 @@ export default function Footer() {
             <Grid item xs={12} sm={4}>
               <Typography>Contact Us</Typography>
               <List component="nav" aria-label="secondary mailbox folders">
-                <ListItem button>Phone: +251 - 911 -233 -445</ListItem>
+                <ListItem button>Phone: +251 - 932 -334 -990</ListItem>
                 <ListItem button>
-                  Monday - Friday from 9.00 am to 8.00 pm <br />
-                  Saturday from 10.00 am to 6.00 pm
+                  Monday - Friday from 8.00 am to 6.00 pm <br />
+                  Saturday from 9.00 am to 5.00 pm
                 </ListItem>
                 <ListItem button className={greenText}>
                   info@cncm.com
@@ -93,7 +93,7 @@ export default function Footer() {
             </Typography>
 
             <Typography>
-              Design by <span className={greenText}>twoftime</span> plc
+              Design by <span className={greenText}>Yideg Misganew</span> 
             </Typography>
           </Grid>
         </Grid>

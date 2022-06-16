@@ -38,7 +38,7 @@ function MainAppBar() {
             <Button>Bussiness</Button>
             <Button>Law Firms</Button>
 
-            <Typography>(+251)9-291-31622</Typography>
+            <Typography>(+251)9-456-34578</Typography>
             <Typography>Get in touch</Typography>
           </Hidden>
         </Toolbar>

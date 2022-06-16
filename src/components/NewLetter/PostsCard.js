@@ -43,6 +43,7 @@ const useStyles = makeStyles((theme) => ({
     background: "#4bec55",
     padding: 10,
     color: "#fff",
+    marginLeft:60,
   },
   paraText: {
     fontStyle: "Italic",
@@ -74,7 +75,7 @@ function PostsCard() {
           <Grid item xs={12} sm={12}>
             <Paper className={greenPaper}>
               <Box align="center">
-                <Typography className={bigText2}>24 july</Typography>
+                <Typography className={bigText2}>24 July,2021</Typography>
                 <Typography className={paraText}>
                   copyright protects all creations of the human mind whatever
                   their form or ment
@@ -91,7 +92,7 @@ function PostsCard() {
                   <PlayCircleFilledRounded />
                 </Typography>
                 <Typography className={bigText2}>Broadcasting</Typography>
-                <Typography className={greenText}>18 June</Typography>
+                <Typography className={greenText}>18 June,2021</Typography>
               </Box>
             </Paper>
           </Grid>
@@ -99,10 +100,8 @@ function PostsCard() {
           <Grid item xs={6} sm={6}>
             <Paper className={halfPaper}>
               <Box>
-                <Typography className={bigText2}>
-                  The Young Music Industry
-                </Typography>
-                <Typography className={greenText}>18 June</Typography>
+                <Typography className={bigText2}>Young Music Industry</Typography>
+                <Typography className={greenText}>18 June,2021</Typography>
               </Box>
             </Paper>
           </Grid>
@@ -112,7 +111,7 @@ function PostsCard() {
       <Grid item xs={12} sm={6}>
         <Paper className={halfPaper}>
           <Box>
-            <Typography className={greenText}>24 July</Typography>
+            <Typography align="center" className={greenText}>24 July,2021</Typography>
             <Typography className={bigText}>A Career in Packaging</Typography>
             <Typography>
               We're looking for both junior and seior buying candidates to join
@@ -124,7 +123,6 @@ function PostsCard() {
               read more
             </Button>
             <Box align="right" pt={3}>
-              - - -
             </Box>
           </Box>
         </Paper>
